@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@500 & display=swap');
+
+:root{
+    --hellow: #F3F3C3;
+    --pink: #EA9DD6;
+    --purple: #947EC3;
+    --greenlight: #CCF3EE;
+    --greendark: #97C4B8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    background: var(--greendark);
+}
+body, button, input, select, textarea {
+    font-family: 'poppins', sans-serafif;
+    color: white;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h2 {
+    
+    font-size: 24px;
+}
+/* define a margem e a gordura da fonte */
+h1, h2 {
+    margin: 0;
+    font-weight: 400;
+
+}
+
+button { 
+    background: var(--hellow);
+    border: 0;
+    border-radius: 16px;
+    padding: 8px 35px;
+    color: #EA9DD6;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header {
+    /*background: ; */
+    height: calc(100vh - 65px );
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    width: 30%;
+    height: fit-content;
+    padding: 0 100px;
+}
+
+header .container h1{
+    color:var(--hellow)
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    background: var(--greendark);
+    padding: 0 100px;
+    position: sticky;
+    top: 0;
+
+
+}
+
+nav img {
+    height: 45px;
+}
+
+nav ul a {
+    font-size: 24px;
+    color: var(--pink);
+    text-decoration: none;
+    margin: 0 35px;
+}
